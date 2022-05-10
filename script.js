@@ -19,6 +19,7 @@ function closeMenuFun() {
   navBar.classList.remove("show");
   mainMenu.classList.toggle("hidden");
   logo.classList.remove("hidden");
+  document.body.classList.remove('no-scroll');
 }
 
 openMenu.addEventListener("click", show);
