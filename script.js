@@ -10,6 +10,7 @@ function show() {
   openMenu.classList.add("hidden");
   mainMenu.classList.toggle("hidden");
   logo.classList.add("hidden");
+  document.body.classList.add('no-scroll');
 }
 
 function closeMenuFun() {
